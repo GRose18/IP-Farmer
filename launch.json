@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/sshconnection.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Server",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/server.js"
+        }
+    ]
+}
